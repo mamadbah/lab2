@@ -3,7 +3,11 @@
 <head>
 <title>My personal information</title>
 </head>
+
 <style>
+img {
+  border-radius: 50%;
+  }
 h1 {
 color: maroon;
   text-align: center;
@@ -22,21 +26,38 @@ div {
   border: 10px solid green;
   padding: 15px;
   margin: 20px;
+  text-align: justify;
+}
+div {
+  width: 100px;
+  height: 60px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
 }
 
+@keyframes example {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
 </style>
-<body>
 
+
+
+<body>
 
 <h1 style="background-color:MediumSeaGreen;">My Personal Information</h1>
 <body style="background-color:linen;">
+
 <img src="mousa.png" width="150" height="122";>
  <img src="imag.png" style="float:right;width:222px;height:122px;">
  <img src="img_tree.png" style="float:right;width:222px;height:122px;">
- 
+ <img src="sky.png" style="float:right; width="200" height="200">
 
 <p><strong>Name:</strong> Mamadou Djouhe Bha</b></p>
-  <p><strong>Nickname:</strong> Mamadou</p>
+  <p><strong>Nickname:</strong> Mamadou </p>
   <section>
     <h2 style="background-color:MediumSeaGreen;">Personal Details</h2>
 	<ul>
@@ -62,8 +83,13 @@ div {
       
     </ul>
 	 <h2 style="background-color:MediumSeaGreen;">Languages</h2>
-	 <div>French <br> English</div>
-<br>
+	 
+	<div> <ul>
+	<li>French </li> 
+	<li>English</li>
+</ul> 
+</div>
+
   </section>
 	
 	
