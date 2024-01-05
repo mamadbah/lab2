@@ -5,6 +5,7 @@
 </head>
 
 <style>
+
 img {
   border-radius: 50%;
   }
@@ -42,14 +43,14 @@ div {
   50%  {background-color: blue;}
   100% {background-color: green;}
 }
-</style>
 
+</style>
 
 
 <body>
 
 <h1 style="background-color:MediumSeaGreen;">My Personal Information</h1>
-<body style="background-color:linen;">
+ style="background-color:linen;">
 
 <img src="mousa.png" width="150" height="122";>
  <img src="imag.png" style="float:right;width:222px;height:122px;">
@@ -90,10 +91,23 @@ div {
 </ul> 
 </div>
 
-  </section>
-	
-	
-	
-</body>
-</body>
+  <button onclick="this.innerHTML=Date()">The time is?</button>
+<body>
+<div onmouseover="mOver(this)" onmouseout="mOut(this)" 
+style="background-color:#D94A38;width:120px;height:20px;padding:40px;">
+Mouse Over Me</div>
+
+<script>
+function mOver(obj) {
+  obj.innerHTML = "Thank You"
+}
+
+function mOut(obj) {
+  obj.innerHTML = "Mouse Over Me"
+}
+</script>
+	</body>
+	</body>
+
+
 </html>
