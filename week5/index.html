@@ -113,7 +113,13 @@ document.getElementById("demo").innerHTML = 'Nickname: Mamadou';
  
 <button onclick="this.innerHTML=Date()">The time is?</button>
 
+<p id="demo3"></p>
 
+<script>
+let x = false;         // x is a boolean
+let y = new Boolean(false);  // y is an object
+document.getElementById("demo3").innerHTML = (x==y);
+</script>
 
 
 
