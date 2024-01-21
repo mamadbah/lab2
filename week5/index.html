@@ -171,6 +171,23 @@ document.getElementById("demo14").innerHTML =
 myCar1.name + " " + myCar2.name;
 </script>
 
+<p id="demo15"></p>
 
+<script>
+function myDisplayer(some) {
+  document.getElementById("demo15").innerHTML = some;
+}
+
+function myFirst() {
+  myDisplayer("Hello");
+}
+
+function mySecond() {
+  myDisplayer("Goodbye");
+}
+
+myFirst();
+mySecond();
+</script>
 
 </html>
