@@ -131,6 +131,17 @@ function validateForm() {
       </p>
     </form>
 	
+	<p id="demo13"></p>
+
+<script>
+setInterval(myTimer, 1000);
+
+function myTimer() {
+  const d = new Date();
+  document.getElementById("demo13").innerHTML = d.toLocaleTimeString();
+}
+</script>
+	
 	<div onmouseover="mOver(this)" onmouseout="mOut(this)" 
 style="background-color:#D04A98;width:110px;height:15px;padding:20px;">
 Mouse Over Me</div>
@@ -145,95 +156,6 @@ function mOut(obj) {
 }
 </script>
 	
-	
-	
-	
-	
-	
-	
-	
-	
- 
-<p id="demo0"></p>
-
-<script>
-const person = {
-  firstname: "John",
-  lastname: "Doe",
-  age: 50,
-  eyecolor: "blue"
-};
-
-delete person.age;
-
-document.getElementById("demo0").innerHTML =
-person.firstname + " is " + person.age + " years old.";
-</script>
-
-const message = () => {
-const name = "Jesse";
-const age = 40;
-return name + ' is ' + age + 'years old.';
-};
-
-export default message;
-<p id="demo12"></p>
-
-<script>
-let x = myFunction(4, 3);
-document.getElementById("demo12").innerHTML = x;
-
-function myFunction(a, b) {
-  return a * b;
-}
-</script>
-
- <p id="demo"></p>
-
-<script type="module">
-import message from "./message.js";
-
-document.getElementById("demo").innerHTML = message();
-
-</script>
- 
-<p id="demo14"></p>
-
-<script>
-class Car {
-  constructor(name, year) {
-    this.name = name;
-    this.year = year;
-  }
-}
-
-const myCar1 = new Car("Ford", 2014);
-const myCar2 = new Car("Audi", 2019);
-
-document.getElementById("demo14").innerHTML =
-myCar1.name + " " + myCar2.name;
-</script>
-
-<p id="demo15"></p>
-
-<script>
-function myDisplayer(some) {
-  document.getElementById("demo15").innerHTML = some;
-}
-
-function myFirst() {
-  myDisplayer("Hello");
-}
-
-function mySecond() {
-  myDisplayer("Goodbye");
-}
-
-myFirst();
-mySecond();
-</script>
-
-
 
 
 </html>
