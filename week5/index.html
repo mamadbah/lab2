@@ -97,6 +97,26 @@ document.getElementById("demo").innerHTML = 'Nickname: Mamadou';
       <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> <strong>Phone: +63 9391003428</strong></p>
       <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i><strong> Email: djouheoumou@mail.com</strong></p>
     </div><br>
+
+	<script>
+function validateForm() {
+  let x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+</script>
+</head>
+<body>
+
+
+
+<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+ Your feedback: <input type="text" name="fname">
+  <input type="submit" value="Submit">
+</form>
+	
     <p><strong>Let's get in touch. Send me a message:<strong></p>
 
     <form action="/action_page.php" target="_blank">
@@ -110,6 +130,29 @@ document.getElementById("demo").innerHTML = 'Nickname: Mamadou';
         </button>
       </p>
     </form>
+	
+	<div onmouseover="mOver(this)" onmouseout="mOut(this)" 
+style="background-color:#D04A98;width:110px;height:15px;padding:20px;">
+Mouse Over Me</div>
+
+<script>
+function mOver(obj) {
+  obj.innerHTML = "Thank You"
+}
+
+function mOut(obj) {
+  obj.innerHTML = "Mouse Over Me"
+}
+</script>
+	
+	
+	
+	
+	
+	
+	
+	
+	
  
 <p id="demo0"></p>
 
@@ -189,5 +232,8 @@ function mySecond() {
 myFirst();
 mySecond();
 </script>
+
+
+
 
 </html>
