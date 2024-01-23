@@ -156,6 +156,12 @@ function mOut(obj) {
 }
 </script>
 	
-
+<?php
+$txt = "PHP";
+echo "I love $txt!";
+?><?php
+$txt = "PHP";
+echo "I love $txt!";
+?>
 
 </html>
