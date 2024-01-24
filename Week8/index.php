@@ -137,7 +137,11 @@ function validateForm() {
   <input type="submit" value="Submit">
 </form>
 	
-    <p><strong>Let's get in touch. Send me a message:<strong></p>
+    <p><strong><?php
+if (7 > 5) {
+  echo "Let's get in touch. Send me a message:";
+}
+?><strong></p>
 
     <form action="/action_page.php" target="_blank">
       <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
