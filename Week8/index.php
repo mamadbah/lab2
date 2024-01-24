@@ -181,19 +181,5 @@ function mOut(obj) {
 </script>
 	
 
-<?php
-$car = array("brand"=>"Ford", "model"=>"Mustang", "year"=>1964);
-echo $car["model"];
-?>
-
-<?php  
-$x = 75;
-  
-function myfunction() {
-  echo $GLOBALS['x'];
-}
-
-myfunction()
-?>  
 
 </html>
