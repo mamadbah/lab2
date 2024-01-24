@@ -60,7 +60,11 @@ document.getElementById("demo").innerHTML = 'Nickname: Mamadou';
   <section>
     <h2 style="background-color:MediumSeaGreen;">Personal Details</h2>
 	<ul>
-      <li><strong>Age: 24</strong></li>
+      <li><strong><?php
+$x = "Age: ";
+echo "$x 24";
+?>
+</strong></li>
       <li><strong>Senior High School Graduated From: GS Keitayah Conkry Guinea</strong></li>
       <li><strong>Course: Mathmatics</strong></li>
       <li><strong>Scholarship? Yes / No If yes, %? type?Yes, 
