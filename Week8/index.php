@@ -87,8 +87,15 @@ echo "Experience";
 	 <h2 style="background-color:MediumSeaGreen;">Languages Spoken</h2>
 	 
 	<div> <ul>
-	<li><strong>French </strong></li> 
-	<li><strong>English</strong></li>
+	<li><strong><?php
+$x = "French";
+echo $x;
+?>
+ </strong></li> 
+	<li><strong> <?php
+$x = "English";
+echo $x;
+?></strong></li>
 </ul> 
 </div>
  
