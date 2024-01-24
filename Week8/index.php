@@ -106,7 +106,10 @@ echo $x;
     
 
     <div class="w3-section">
-      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> <strong>Manila, PH</strong></p>
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> <strong><?php
+echo "Manila, PH";
+?> 
+</strong></p>
       <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> <strong>Phone: +63 9391003428</strong></p>
       <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i><strong> Email: djouheoumou@mail.com</strong></p>
     </div><br>
@@ -169,6 +172,7 @@ function mOut(obj) {
 }
 </script>
 	
+
 
 
 </html>
