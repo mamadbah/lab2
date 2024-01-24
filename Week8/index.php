@@ -177,6 +177,8 @@ function mOut(obj) {
 </script>
 	
 
-
+<?php
+echo(rand());
+?>
 
 </html>
