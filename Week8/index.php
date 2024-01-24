@@ -44,7 +44,10 @@ p {
  
  
  
- <p><strong>Name: Mamadou Djouhe Bha</strong></b></p>
+ <p><strong><?php
+echo "Name: Mamadou Djouhe Bah";
+?> 
+</strong></b></p>
 
 
 
@@ -68,7 +71,10 @@ document.getElementById("demo").innerHTML = 'Nickname: Mamadou';
 	  because I want be a programmer.</strong></li>
     </ul>
 	</section>
-	<h2 style="background-color:MediumSeaGreen;">Experience </h2>
+	<h2 style="background-color:MediumSeaGreen;"><?php
+echo "Experience";
+?> 
+</h2>
     <ul>
       <li><strong>BPO :French Operation CSR at Telus international Philippines since March 2021</strong> </li>
       <li><strong>Hobbies/Interests: I'm a big fan of football</strong></li>
@@ -156,12 +162,6 @@ function mOut(obj) {
 }
 </script>
 	
-<?php
-$txt = "PHP";
-echo "I love $txt!";
-?><?php
-$txt = "PHP";
-echo "I love $txt!";
-?>
+
 
 </html>
