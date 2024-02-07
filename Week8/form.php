@@ -99,13 +99,29 @@ echo $comment;
 echo "<br>";
 echo $gender;
 ?>
+<?php
+//  For Xampp Localhost
+//$servername = "localhost";
+//$username = "root";
+//$password = "";
+//$dbname = "myDB";
 
+<<<<<<< HEAD
 
 <?php
 $servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "myDB";
+=======
+// For socitcloud
+$servername = "localhost";
+$username = "webprogmi221";
+$password = "g_6bCitLu.ljMK*m";
+$dbname = "webprogmi221";
+
+
+>>>>>>> 273429d1ffa980d16763fbba1aa578084c61c757
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -114,8 +130,13 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
+<<<<<<< HEAD
 $sql = "INSERT INTO MyGuests (name,email,website,comment,gender)
 VALUES ('$name','$email','$website','$comment','$gender')";
+=======
+$sql = "INSERT INTO mdbah_myguests (name, email,website,comment,gender)
+VALUES ('$name', '$email','$website','$comment','$gender')";
+>>>>>>> 273429d1ffa980d16763fbba1aa578084c61c757
 
 if ($conn->query($sql) === TRUE) {
   echo "New record created successfully";
@@ -125,8 +146,11 @@ if ($conn->query($sql) === TRUE) {
 
 $conn->close();
 ?>
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 273429d1ffa980d16763fbba1aa578084c61c757
 </body>
 </html>
