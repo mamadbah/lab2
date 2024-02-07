@@ -100,7 +100,7 @@ echo "<br>";
 echo $gender;
 ?>
 <?php
-// For Xampp Localhost
+//  For Xampp Localhost
 //$servername = "localhost";
 //$username = "root";
 //$password = "";
