@@ -3,7 +3,13 @@ $servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "myDB";
- 
+
+//socitcloud config
+$servername = "localhost";
+$username = "webprogmi221_sf221";
+$password = "xE*Y2nleNVvZm[[!!";
+$dbname = "webprogmi221_sf221";
+
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
@@ -11,7 +17,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT id, name, email, website, comment, gender FROM MyGuests";
+$sql = "SELECT id, name, email, website, comment, gender FROM mdbah_MyGuests";
 $result = $conn->query($sql);
   
 if ($result->num_rows > 0) {
