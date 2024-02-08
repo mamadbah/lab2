@@ -3,7 +3,7 @@ $servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "myDB";
-
+  
 //socitcloud config
 $servername = "localhost";
 $username = "webprogmi221_sf221";
